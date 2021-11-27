@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
 
     <link rel="stylesheet" href="./css/styles.css">
     
 </head>
 <body>
     <!--header-->
-    <header class="container" >
+    <header class="" >
         <div class="container header-container">
         <nav class= "header-nav">
             <a class="logo" href="#"> <span class="color-logo">Web</span>Studio</a>
@@ -49,49 +50,50 @@
         </section>
    
        <!--section 2-->
-        <section class="offer-section container">
-    
-            <ul class="section2-list container">
-                <li class="list-item">
-                    <div class="list-icon">
-                    <svg width="70", height="70"> 
-                        <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
-                    </svg>
-                    </div>
-                <h3 class="props-h3">Внимание к деталям</h3>
-                 <p class="props">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-              </li>
-                <li class="list-item">
-                    <div class="list-icon">
+        <section class="offer-section ">
+            <div class="container">
+                <ul class="section2-list ">
+                    <li class="list-item">
+                        <div class="list-icon">
                         <svg width="70", height="70"> 
-                            <use href="./images/symbol-defs.svg#icon-clock-1"></use>
+                            <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
                         </svg>
-                    </div>
-                <h3 class="props-h3">Пунктуальность</h3>
-                <p class="props">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="list-item">
-                    <div class="list-icon">
-                        <svg width="70", height="70"> 
-                            <use href="./images/symbol-defs.svg#icon-diagram-1"></use>
-                        </svg>
-                    </div>
-                <h3 class="props-h3">Планирование</h3>
-                <p class="props">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="list-item">
-                    <div class="list-icon">
-                        <svg width="70", height="70"> 
-                            <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
-                        </svg>
-                    </div>
-                <h3 class="props-h3">Современные технологии</h3>
-                <p class="props">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+                        </div>
+                    <h3 class="props-h3">Внимание к деталям</h3>
+                     <p class="props">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                  </li>
+                    <li class="list-item">
+                        <div class="list-icon">
+                            <svg width="70", height="70"> 
+                                <use href="./images/symbol-defs.svg#icon-clock-1"></use>
+                            </svg>
+                        </div>
+                    <h3 class="props-h3">Пунктуальность</h3>
+                    <p class="props">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-icon">
+                            <svg width="70", height="70"> 
+                                <use href="./images/symbol-defs.svg#icon-diagram-1"></use>
+                            </svg>
+                        </div>
+                    <h3 class="props-h3">Планирование</h3>
+                    <p class="props">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="list-item">
+                        <div class="list-icon">
+                            <svg width="70", height="70"> 
+                                <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
+                            </svg>
+                        </div>
+                    <h3 class="props-h3">Современные технологии</h3>
+                    <p class="props">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--section 3-->
-<section>
+<section class="activity-section">
 
     <div class="container">
         <h2 class="we-offer">Чем мы занимаемся</h2>
@@ -108,7 +110,8 @@
     <h2 class="our-team">Наша команда</h2>
    <ul class="our-team-list">
         <li class="our-team-list-item"><img src="./images/img-(3).jpg" alt="Игорь Демьяненко" width="270" height="260">
-            <h3 class="team">Игорь Демьяненко</h3>
+            <div class="team-description">
+                <h3 class="team">Игорь Демьяненко</h3>
             <p class="occupation">Product Designer</p>
             <ul class="team-socials">
             <li class="team-socials-item"> 
@@ -140,9 +143,11 @@
                   </a>
             </li>
         </ul>
+            </div>
     </li>
         <li class="our-team-list-item"><img src="./images/img-(4).jpg" alt="Ольга Репина" width="270" height="260">
-            <h3 class="team">Ольга Репина</h3>
+            <div class="team-description">
+                <h3 class="team">Ольга Репина</h3>
             <p class="occupation">Frontend Developer</p>
             <ul class="team-socials">
                 <li class="team-socials-item"> 
@@ -174,8 +179,10 @@
                       </a>
                 </li>
             </ul>
+            </div>
         </li>
         <li class="our-team-list-item"> <img src="./images/img-(5).jpg" alt="Николай Тарасов" width="270" height="260">
+           <div class="team-description">
             <h3 class="team">Николай Тарасов</h3>
             <p class="occupation">Marketing</p>
             <ul class="team-socials">
@@ -208,9 +215,11 @@
                       </a>
                 </li>
             </ul>
+           </div>
         </li>
         <li class="our-team-list-item"><img src="./images/img-(6).jpg" alt="Михаил Ермаков" width="270" height="260">
-            <h3 class="team">Михаил Ермаков</h3>
+            <div class="team-description">
+                <h3 class="team">Михаил Ермаков</h3>
              <p class="occupation">UI Designer</p>
              <ul class="team-socials">
                 <li class="team-socials-item"> 
@@ -242,6 +251,7 @@
                       </a>
                 </li>
             </ul>
+            </div>
         </li>
     </ul>
 </div>
